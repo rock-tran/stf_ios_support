@@ -278,7 +278,7 @@ repos/ios_video_stream:
 	git clone https://github.com/nanoscopic/ios_video_stream.git repos/ios_video_stream
 
 repos/ios_video_pull:
-	git clone https://github.com/nanoscopic/ios_video_pull.git repos/ios_video_pull
+	git clone -b fix_error_build https://github.com/den-patrakeev/ios_video_pull.git repos/ios_video_pull
 
 repos/WebDriverAgent/WebDriverAgent.xcodeproj: repos/WebDriverAgent
 

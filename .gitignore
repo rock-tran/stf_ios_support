@@ -14,3 +14,6 @@ runner/runnercert.conf
 runner/runner
 update_server/server
 **/*~
+/view_log
+/xcode*.xml
+/runner.tgz
