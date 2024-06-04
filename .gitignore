@@ -17,3 +17,4 @@ update_server/server
 /view_log
 /xcode*.xml
 /runner.tgz
+.python-version
