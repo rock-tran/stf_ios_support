@@ -335,7 +335,7 @@ repos/libimobiledevice/Makefile: | repos/libimobiledevice
 stf: repos/stf-ios-provider/package-lock.json
 
 repos/stf-ios-provider/package-lock.json: repos/stf-ios-provider/package.json
-	cd repos/stf-ios-provider && PATH="/usr/local/opt/node@14/bin:$(PATH)" npm install
+	cd repos/stf-ios-provider && PATH="/Users/mobilehealth/.nvm/versions/node/v14.21.3/bin:$(PATH)" npm install
 	touch repos/stf-ios-provider/package-lock.json
 
 # --- OFFLINE STF ---
